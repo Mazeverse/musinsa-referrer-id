@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>무신사 추천인 ID starbees | 가입 추천인 아이디</title>
+<meta name="description" content="무신사 추천인 ID starbees 공유 페이지 | 가입 시 입력 가능한 추천인 아이디와 바로가기 링크 제공">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body {
+    margin:0;
+    font-family:'Nunito', sans-serif;
+    background:#f5f1e8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.card {
+    background:#fffaf3;
+    border-radius:20px;
+    padding:40px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+    max-width:400px;
+    width:90%;
+}
+h1 {
+    margin-bottom:10px;
+}
+.code {
+    background:#eee;
+    padding:15px;
+    border-radius:12px;
+    font-size:24px;
+    margin:20px 0;
+    font-weight:bold;
+}
+button {
+    background:#000;
+    color:#fff;
+    border:none;
+    padding:12px 20px;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:16px;
+}
+a.link {
+    display:block;
+    margin-top:15px;
+    color:#000;
+    text-decoration:none;
+    font-weight:bold;
+}
+</style>
+<script>
+function copyCode(){
+    navigator.clipboard.writeText("starbees");
+    alert("추천인 ID가 복사되었습니다!");
+}
+</script>
+</head>
+<body>
+<div class="card">
+    <h1>무신사 추천인 ID</h1>
+    <p>가입 시 입력 가능한 추천인 아이디</p>
+    <div class="code">starbees</div>
+    <button onclick="copyCode()">ID 복사하기</button>
+    <a class="link" href="http://mss.kr/sh/e9f42084" target="_blank">가입 바로가기</a>
+</div>
+</body>
+</html>
